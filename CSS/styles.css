@@ -61,6 +61,7 @@ img {
 .header-navigation {
     display: flex;
     justify-content: space-between;
+    
 }
 .main-nav {
     display: flex;
@@ -70,12 +71,14 @@ img {
 }
 .logo {
     color:var(--logo-color);
+    font-family: Raleway;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.5;
-    font-family: Raleway;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    padding-bottom: 22px;
 }
+
 .logo-web {
     color: var(--title-text-color);
     font-weight: 800;
@@ -93,7 +96,7 @@ img {
 }
 .item.item-link {
     position: relative;
-    padding-bottom: 24px;
+    padding-bottom: 0px;
 }
 .item.item-link::before {
     position: absolute;
@@ -113,6 +116,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: block;
+    padding-bottom: 22px;
 }
 .link:hover,
 .link:focus{
