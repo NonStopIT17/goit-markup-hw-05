@@ -74,7 +74,7 @@ img {
     font-size: 18px;
     line-height: 1.5;
     font-family: Raleway;
-    padding-bottom: 24px;
+    padding-bottom: 20px;
 }
 .logo-web {
     color: var(--title-text-color);
@@ -514,6 +514,12 @@ letter-spacing: 0.02em;
     color: rgba(244, 244, 253, 1);
 }
 .flex-element:hover .overlay {
+    transform: translateY(0);
+    transition: transform var(--time-hover-focus);
+    opacity:1;
+    transition-timing-function: var(--speed);  
+}
+.flex-element:focus .overlay {
     transform: translateY(0);
     transition: transform var(--time-hover-focus);
     opacity:1;
